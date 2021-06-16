@@ -10,7 +10,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: goldenrod;
+    background-color: #c2aa4b;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,6 +19,14 @@ nav{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+}
+
+.logo-pic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    width: 60px;
+    height: 60px;
 }
 
 .nav-links {
@@ -60,7 +68,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: goldenrod;
+        background-color: #c2aa4b;
         display: flex;
         flex-direction: column;
         align-items: center;
