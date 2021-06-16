@@ -30,6 +30,9 @@ html, body {
     margin-top: -110px;
     clear: both;
 }
+.icon-color {
+    fill: white;
+}
 .socials {
     display: flex;
     justify-content: space-evenly;
@@ -74,13 +77,21 @@ nav{
     letter-spacing: 5px;
     font-size: 20px;
 }
-
+/*home page index*/
 .logo-pic {
     display: flex;
     justify-content: flex-start;
     align-items: left;
     width: 60px;
     height: 60px;
+}
+/*about page */
+.myface {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    width: 100px;
+    height: 100px;
 }
 
 .nav-links {
