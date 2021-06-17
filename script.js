@@ -21,3 +21,6 @@ const navSlide = () => {
 }  
 
 navSlide();
+
+var player = new scPlayer();
+player.init('https://soundcloud.com/djchiclipse/decant-the-universe', $('#soundcloudFrame'), true); 
